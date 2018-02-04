@@ -1,5 +1,5 @@
 {
-  "name": "filesystem-storage-pkgcloud",
+  "name": "@blacksaprk/filesystem-storage-pkgcloud",
   "version": "1.2.0",
   "description": "filesystem storage provider for pkgcloud (based on loopback-storage-service)",
   "main": "index.js",
@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/Jemsoft/filesystem-storage-pkgcloud"
+    "url": "https://github.com/Blackspark/filesystem-storage-pkgcloud.git"
   },
   "keywords": [
     "pkgcloud",
