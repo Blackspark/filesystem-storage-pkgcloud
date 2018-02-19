@@ -1,6 +1,6 @@
 {
   "name": "@blackspark/filesystem-storage-pkgcloud",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "filesystem storage provider for pkgcloud (based on loopback-storage-service)",
   "main": "index.js",
   "scripts": {
