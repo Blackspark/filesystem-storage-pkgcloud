@@ -327,7 +327,7 @@ function readdirAsync(dir, container, _this, callback) {
           });
         } else {
           var fileName = path.basename(currentPath);
-          let fpath = currentPath.split(container).pop()
+          let fpath = currentPath.split(container + path.sep).pop()
           var props = {container: container, name: fpath, location: subPath };          
           populateMetadata(stat, props);
           var outFile = new File(_this, props);
